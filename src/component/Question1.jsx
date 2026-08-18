@@ -5,7 +5,13 @@ function Counter() {
         setCount((prev) => prev + 1);
     }
     return (
-        <div className="flex flex-col items-center gap-4 mt-10">
+        <div className="flex flex-col items-center gap-4 mt-10 ">
+
+            <h1 className="text-black font-bold">
+            Question1
+            </h1>
+            
+
             <h1 className="text-2xl font-bold">Count: {count}</h1>
             <button
                 onClick={increament}

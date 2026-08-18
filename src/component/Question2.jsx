@@ -7,10 +7,15 @@ const Debug = () => {
     setCount(prev => prev + 1);
   }
 return (
-    <div className="flex flex-col items-center gap-4 mt-10 bg-gray-200">
+    <div className="flex flex-col items-center gap-4 mt-10 ">
+
+        <h1 className="text-black font-bold">
+            Question2
+        </h1>
+
         <h1 className="text-2xl font-bold">{count}</h1>
 
-        <button
+                <button
             onClick={addTwo}
             className="rounded-lg bg-yellow-600 px-5 py-2 text-white font-semibold">
             Add 2
